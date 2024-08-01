@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sample-web-app
-        image: <ACRName>.azurecr.io/sample-web-app:v1
+        image: sonaregistry.azurecr.io/sample-web-app:v1
         ports:
         - containerPort: 8080
 
