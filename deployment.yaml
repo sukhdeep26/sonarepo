@@ -16,5 +16,5 @@ spec:
       - name: sample-web-app
         image: sonaregistry.azurecr.io/sample-web-app:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
